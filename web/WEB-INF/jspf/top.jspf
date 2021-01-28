@@ -1,0 +1,46 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+
+
+<script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+
+        function closeNav() {
+     
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+<div>
+    
+    <div id="main">
+        
+        <div class="header">
+            <button class="openbtn" onclick="openNav()">&#9776; Menú</button>
+            <br>
+            Conciliación Bancaria
+        <div class="menu">
+            
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                
+                <a href = "index" onclick="closeNav()" class="" > Inicio </a><!-- comment -->
+                <a href = "cuentasbcos?op=list" onclick="closeNav()" class="" > Cuentas Bancarias </a><!-- comment -->
+                
+                <!-- 
+                    <a href = "index" class="btn btn-lg btn-primary" > Inicio </a>
+                    <a href = "cuentasbcos?op=list" class="btn btn-lg btn-primary" > Cuentas Bancarias </a>
+                -->
+              </div>
+            
+        </div>
+    </div>
+    <div class="content">
+    </div>
+    
+    

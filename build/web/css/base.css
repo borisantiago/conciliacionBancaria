@@ -1,0 +1,23 @@
+.header{
+    background-color: darkblue ;
+    color: #fff;
+    font-size: 200%;
+    height: 200px;
+    padding: 20px;
+}
+
+.bottom{
+    background-color: darkblue;
+    color: #fff;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.content{
+    padding: 20px;
+}
+
+.menu{
+    margin-top: 10px;
+}
